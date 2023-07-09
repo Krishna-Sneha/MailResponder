@@ -9,7 +9,18 @@ Features:
 4. Easy setup: The Vacation Mail Responder is easy to set up and configure, requiring only minimal configuration parameters such as vacation message content and whitelist settings.
 5. Enable/disable: You can easily enable or disable the Vacation Mail Responder at any time, allowing you to control when the autoresponder is active.
 
-Here is the walkthrough of code implementation and app testing.
+Implementation: 
 
+1. Used the Gmail API from Google Cloud, then performed the auth consent and downloaded the client_credentials.json file.
+2. Then main used npm packages: Express, path, googleapis, google cloud local auth.
+3. Then went through and defined the scopes required.
+4. Generate the auth token using google cloud local auth.
+5. Created functions for getting non-replied mails, sending replies, encoding message, creating labels, and adding label to the mails recieved.
+
+
+Here is the walkthrough of code implementation and app testing.
 GoogleDrive Link:
 https://drive.google.com/file/d/1hA8EmnGLyHhTlnacf7z0-4UlYrW_izQu/view?usp=sharing
+
+For any inquiries or questions, please contact snehaaes@gmail.com
+
