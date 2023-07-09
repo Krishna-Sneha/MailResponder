@@ -1,4 +1,5 @@
 Vacation Mail Responder:
+
 The Vacation Mail Responder is a simple email autoresponder that automatically replies to incoming emails while you are on vacation. It allows you to inform senders that you are currently away and provides them with alternative contacts or important information.
 
 Features: 
